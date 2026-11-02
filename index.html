@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal Singh — Digital Content Creator</title>
+<meta name="description" content="Vishal Singh is a Digital Content Creator from Varanasi — websites, UI/UX, graphic design, motion graphics, video editing and AI-assisted content.">
+<meta name="keywords" content="digital content creator, frontend developer, UI UX designer, graphic designer, motion graphics, video editor, Varanasi, HTML, CSS, JavaScript, Bootstrap, Figma, portfolio, Vishal Singh">
+<meta name="author" content="Vishal Singh">
+<meta property="og:title" content="Vishal Singh — Digital Content Creator">
+<meta property="og:description" content="Digital Content Creator — websites, UI/UX, graphics, motion and video.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/webp" href="images/logo-red.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Fraunces:opsz,wght@9..144,700&family=Big+Shoulders+Display:wght@800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-canvas" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow--one"></div>
+  <div class="bg-glow bg-glow--two"></div>
+  <div class="bg-glow bg-glow--three"></div>
+  <div class="bg-noise"></div>
+</div>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Open menu">
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="brand-mark" aria-label="Vishal Singh — home">
+      <span class="brand-mark__ring"></span>
+      <img src="images/logo-red.webp" alt="" width="26" height="26">
+    </a>
+
+    <nav class="main-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--ghost-sm nav-cta">Hire Me</a>
+    </nav>
+
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="container hero__inner">
+
+    <div class="hero__logo" aria-hidden="true">
+      <span class="hero__logo-ring hero__logo-ring--a"></span>
+      <span class="hero__logo-ring hero__logo-ring--b"></span>
+      <span class="hero__logo-core"><img src="images/logo-red.webp" alt="" width="46" height="46"></span>
+    </div>
+
+    <p class="eyebrow hero__eyebrow"><span class="eyebrow__dot"></span>OPEN TO WORK — DIGITAL CONTENT CREATOR</p>
+
+    <h1 class="hero__name">
+      <span class="hero__name-line">Vishal <span class="grad-text">Singh</span></span>
+    </h1>
+
+    <ul class="hero__roles" aria-label="What I do">
+      <li><a href="#web-work">Web</a></li><li><a href="#uiux-work">UI/UX</a></li><li><a href="#graphics">Graphics</a></li><li><a href="#motion">Motion &amp; Video</a></li><li><a href="#ai-tools">AI</a></li>
+    </ul>
+
+    <div class="hero__cta-row">
+      <a href="#projects" class="btn btn--primary">
+        <span>View My Work</span>
+        <svg class="btn__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="files/Vishal_Singh_Resume.pdf" class="btn btn--ghost" download="Vishal_Singh_Resume.pdf">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5v11M7 10l5 5 5-5M4.5 19.5h15" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Download Resume</span>
+      </a>
+    </div>
+
+    <div class="hero__stats">
+      <div class="hero__stat"><strong class="grad-text">15</strong><span>Portfolio Projects</span></div>
+      <div class="hero__stat"><strong class="grad-text">400+</strong><span>Training Hours</span></div>
+      <div class="hero__stat"><strong class="grad-text">15+</strong><span>Tools &amp; Technologies</span></div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-track"><span class="hero__scroll-dot"></span></span>
+      <span class="hero__scroll-label">SCROLL</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">About Me</p>
+      <h2 class="section-title">The mind behind<br>the content.</h2>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__visual">
+        <div class="about__frame glass-panel">
+          <img src="images/vishal-singh.webp" alt="Portrait of Vishal Singh" width="600" height="600" loading="lazy">
+          <div class="about__frame-corner about__frame-corner--tl"></div>
+          <div class="about__frame-corner about__frame-corner--br"></div>
+        </div>
+      </div>
+
+      <div class="about__content">
+        <p class="about__lede">
+          “Design is not just what it looks like. Design is how it works.”
+        </p>
+        <p>
+          I'm <strong>Vishal Singh</strong>, a <strong>Digital Content Creator</strong> from
+          <strong>Varanasi</strong>. I hold a <strong>BCA (2022–2025)</strong> and completed the 402-hour
+          <strong>Digital Content Creation</strong> program at <strong>Arena Animation (2024–2026)</strong>,
+          where I trained in design, motion, video and web development.
+        </p>
+        <p>
+          I like to take an idea all the way: design the look in Figma, Photoshop or Illustrator,
+          bring it to life with motion in After Effects, cut and sound-design it in Premiere Pro, and
+          build it as a responsive website. I use AI tools to move faster and try more ideas — but every
+          final piece is shaped by hand, with care for typography, colour and timing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== HOW I THINK ===================== -->
+<section class="section how-think" id="how-i-think">
+  <div class="container">
+    <div class="philosophy">
+      <p class="label-mono">HOW I THINK</p>
+      <div class="philosophy__grid">
+        <div class="philosophy-card glass-panel">
+          <span class="philosophy-card__index">01</span>
+          <h3>Design with purpose</h3>
+          <p>Every post, screen and frame is planned around who will see it.</p>
+        </div>
+        <div class="philosophy-card glass-panel">
+          <span class="philosophy-card__index">02</span>
+          <h3>Make it move</h3>
+          <p>Motion, editing and sound that make content feel alive.</p>
+        </div>
+        <div class="philosophy-card glass-panel">
+          <span class="philosophy-card__index">03</span>
+          <h3>Build it end to end</h3>
+          <p>From first sketch to a live website or a finished video.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Skills &amp; Tools</p>
+      <h2 class="section-title">Design, code and motion.<br>One creator.</h2>
+    </div>
+
+    <div class="skills__grid">
+      <article class="skill-card glass-panel">
+        <div class="skill-card__icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M9 8 3 14l6 6M19 8l6 6-6 6M16 5l-4 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="skill-card__index">01</span>
+        <h3>Frontend Development</h3>
+        <ul class="skill-card__list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES7)</li>
+          <li>jQuery</li>
+          <li>Bootstrap 5</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </article>
+
+      <article class="skill-card glass-panel skill-card--accent">
+        <div class="skill-card__icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="3" width="22" height="22" rx="4" stroke="currentColor" stroke-width="1.4"/><path d="M3 10h22M10 10v15" stroke="currentColor" stroke-width="1.4"/></svg>
+        </div>
+        <span class="skill-card__index">02</span>
+        <h3>UI / UX Design</h3>
+        <ul class="skill-card__list">
+          <li>Figma</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>Typography</li>
+          <li>UI Design Principles</li>
+        </ul>
+      </article>
+
+      <article class="skill-card glass-panel">
+        <div class="skill-card__icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.4"/><path d="M11.5 9.5v9l7-4.5-7-4.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="skill-card__index">03</span>
+        <h3>Graphic &amp; Motion</h3>
+        <ul class="skill-card__list">
+          <li>Photoshop <em>Photo art</em></li>
+          <li>Illustrator <em>Vector</em></li>
+          <li>InDesign <em>Publishing</em></li>
+          <li>After Effects <em>Motion</em></li>
+          <li>Premiere Pro <em>Video</em></li>
+          <li>Animate &amp; Audition</li>
+        </ul>
+      </article>
+      <article class="skill-card glass-panel skill-card--accent" id="ai-tools">
+        <div class="skill-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.6L12 15l-1.8-4.4L5.5 9l4.7-1.4L12 3Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M18 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="skill-card__index">04</span>
+        <h3>AI Tools</h3>
+        <ul class="skill-card__list">
+          <li>Claude <em>Code</em></li>
+          <li>ChatGPT <em>Ideas</em></li>
+          <li>Gemini <em>Research</em></li>
+          <li>Seedance 2.0 <em>AI video</em></li>
+          <li>ElevenLabs <em>Voice-over</em></li>
+          <li>Adobe Firefly <em>Gen Fill</em></li>
+          <li>Prompt Writing</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Portfolio</p>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+
+    <div class="project-catalog">
+
+      <!-- Frontend -->
+      <div class="project-category" id="web-work">
+        <div class="project-category__head">
+          <span class="project-category__index">CATEGORY 01/04</span>
+          <h3>Frontend Development</h3>
+          <p>4 complete websites, designed and coded by me.</p>
+        </div>
+        <div class="project-grid">
+          <!-- To link a card: wrap it in <a href="your-live-or-github-url"> -->
+          <article class="project-card">
+            <div class="project-card__thumb t-neon has-logo">
+              <span class="thumb-dots"><i></i><i></i><i></i></span>
+              <span class="project-card__corner project-card__corner--tl"></span>
+              <div class="site-logo site-logo--neon"><img src="images/project-logos/neonstream.png" alt="NeonStream logo" width="600" height="240"><span>NEONSTREAM</span></div>
+              <span class="thumb-sub">Movie Streaming</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Frontend</span>
+              <h4>NeonStream — Movie Streaming Website</h4>
+              <div class="project-card__stack"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">localStorage</span></div>
+              <a class="project-card__live" href="https://vishalsingh18111-lang.github.io/Neonstream/" target="_blank" rel="noopener noreferrer" aria-label="Open NeonStream live website">Live Website <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__thumb t-eternal has-logo">
+              <span class="thumb-dots"><i></i><i></i><i></i></span>
+              <span class="project-card__corner project-card__corner--tl"></span>
+              <div class="site-logo site-logo--eternal"><svg class="mark" viewBox="0 0 34 18" aria-hidden="true"><path d="M9 3a6 6 0 1 0 0 12c4 0 6-3 8-6s4-6 8-6a6 6 0 1 1 0 12c-4 0-6-3-8-6S13 3 9 3z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg><span>Eternal<b>Games</b></span></div>
+              <span class="thumb-sub">Game Store</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Frontend</span>
+              <h4>Eternal Games — Game Store Website</h4>
+              <div class="project-card__stack"><span class="chip">AngularJS</span><span class="chip">Bootstrap 5</span><span class="chip">HTML5</span><span class="chip">CSS3</span></div>
+              <a class="project-card__live" href="https://vishalsingh18111-lang.github.io/EternalGame/" target="_blank" rel="noopener noreferrer" aria-label="Open Eternal Games live website">Live Website <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__thumb t-travel has-logo">
+              <span class="thumb-dots"><i></i><i></i><i></i></span>
+              <span class="project-card__corner project-card__corner--tl"></span>
+              <div class="site-logo site-logo--travel"><span class="mark" aria-hidden="true">✈</span> Wanderlust Co.</div>
+              <span class="thumb-sub">Travel Website</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Frontend</span>
+              <h4>Wanderlust Co. — Travel Website</h4>
+              <div class="project-card__stack"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span></div>
+              <a class="project-card__live" href="https://vishalsingh18111-lang.github.io/wonderlustCo./" target="_blank" rel="noopener noreferrer" aria-label="Open Wanderlust Co. live website">Live Website <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__thumb t-restaurant has-logo">
+              <span class="thumb-dots"><i></i><i></i><i></i></span>
+              <span class="project-card__corner project-card__corner--tl"></span>
+              <div class="site-logo site-logo--dine"><span class="mark" aria-hidden="true">🍽</span>SmartDine</div>
+              <span class="thumb-sub">Restaurant Website</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Frontend</span>
+              <h4>SmartDine — Restaurant Website</h4>
+              <div class="project-card__stack"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">jQuery</span><span class="chip">Bootstrap 5</span><span class="chip">localStorage</span></div>
+              <a class="project-card__live" href="https://vishalsingh18111-lang.github.io/SmartDine/" target="_blank" rel="noopener noreferrer" aria-label="Open SmartDine live website">Live Website <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- UI/UX -->
+      <div class="project-category" id="uiux-work">
+        <div class="project-category__head">
+          <span class="project-category__index">CATEGORY 02/04</span>
+          <h3>UI / UX Design</h3>
+          <p>Interface design projects made in Figma.</p>
+        </div>
+        <div class="project-grid project-grid--two">
+          <article class="project-card">
+            <div class="project-card__thumb t-forge has-logo">
+              <span class="thumb-dots"><i></i><i></i><i></i></span>
+              <span class="project-card__corner project-card__corner--tl"></span>
+              <div class="site-logo site-logo--forge"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4M6.5 7v10M17.5 7v10M21 10v4M6.5 12h11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>FORGE</span></div>
+              <span class="thumb-sub">Gym Workout App</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">UI/UX · Figma</span>
+              <h4>FORGE — Gym Workout App</h4>
+              <div class="project-card__stack"><span class="chip">Figma</span><span class="chip">Mobile UI</span><span class="chip">Prototype</span></div>
+              <a class="project-card__live" href="https://www.figma.com/design/wQ70Z3g1tskn8w1lIeqmAw/FORGE-%E2%80%93-Gym-Workout-App?node-id=0-1&amp;p=f&amp;t=wkhIPBlMG4zTL61g-0" target="_blank" rel="noopener noreferrer" aria-label="Open FORGE design in Figma">View in Figma <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__thumb t-atmos has-logo">
+              <span class="thumb-dots"><i></i><i></i><i></i></span>
+              <span class="project-card__corner project-card__corner--tl"></span>
+              <div class="site-logo site-logo--atmos"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="9" r="4" fill="#FFD166"/><path d="M7 19h10a4 4 0 0 0 0-8 5 5 0 0 0-9.6 1.4A3.3 3.3 0 0 0 7 19Z" fill="#fff"/></svg><span>ATMOS</span></div>
+              <span class="thumb-sub">Weather App</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">UI/UX · Figma</span>
+              <h4>ATMOS — Weather App</h4>
+              <div class="project-card__stack"><span class="chip">Figma</span><span class="chip">Mobile UI</span><span class="chip">Prototype</span></div>
+              <a class="project-card__live" href="https://www.figma.com/design/bPLt27btV9L6KVImaAB6lC/ATMOS-%E2%80%94-Weather-App?t=wkhIPBlMG4zTL61g-0" target="_blank" rel="noopener noreferrer" aria-label="Open ATMOS design in Figma">View in Figma <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Graphic -->
+      <div class="project-category" id="graphics">
+        <div class="project-category__head">
+          <span class="project-category__index">CATEGORY 03/04</span>
+          <h3>Graphic Design</h3>
+        </div>
+        <div class="gfx-grid">
+          <a href="#gfx-g4" class="gfx-card gfx-card--wide" aria-label="View Today's Special — food menu banner full size"><img src="images/graphic-4.webp" alt="Today's Special — food menu banner" loading="lazy"></a>
+          <a href="#gfx-g1" class="gfx-card" aria-label="View Nature — poster design full size"><img src="images/graphic-1.webp" alt="Nature — poster design" loading="lazy"></a>
+          <a href="#gfx-g2" class="gfx-card" aria-label="View Burger — food ad post full size"><img src="images/graphic-2.webp" alt="Burger — food ad post" loading="lazy"></a>
+          <a href="#gfx-g3" class="gfx-card" aria-label="View Luxury car — sale ad post full size"><img src="images/graphic-3.webp" alt="Luxury car — sale ad post" loading="lazy"></a>
+          <a href="#gfx-g5" class="gfx-card" aria-label="View Back to School — banner full size"><img src="images/graphic-5.webp" alt="Back to School — banner" loading="lazy"></a>
+          <a href="#gfx-g6" class="gfx-card gfx-card--fill" aria-label="View Ethos — watch product ad full size"><img src="images/graphic-6.webp" alt="Ethos — watch product ad" loading="lazy"></a>
+          <a href="#gfx-g7" class="gfx-card gfx-card--wide" aria-label="View Digital marketing agency — web banner full size"><img src="images/graphic-7.webp" alt="Digital marketing agency — web banner" loading="lazy"></a>
+        </div>
+      </div>
+
+      <!-- Motion Graphics -->
+      <div class="project-category" id="motion">
+        <div class="project-category__head">
+          <span class="project-category__index">CATEGORY 04/04</span>
+          <h3>Motion Graphics</h3>
+          <p>Motion graphics in After Effects and video editing in Premiere Pro.</p>
+        </div>
+        <article class="reel-card glass-panel">
+          <div class="reel-card__player">
+            <video controls preload="metadata" playsinline poster="images/showreel-poster.webp" width="1280" height="720">
+              <source src="videos/showreel.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="reel-card__body">
+            <span class="project-card__tag">Motion Graphics · After Effects</span>
+            <h4>After Effects Showreel</h4>
+            <ul class="reel-card__list">
+              <li><span>01</span>Text Animation</li>
+              <li><span>02</span>One &amp; Multipoint Tracking</li>
+              <li><span>03</span>Track Matte</li>
+              <li><span>04</span>Speed Ramp</li>
+              <li><span>05</span>Chroma Key</li>
+            </ul>
+          </div>
+        </article>
+        <article class="reel-card glass-panel" style="margin-top:22px">
+          <div class="reel-card__player">
+            <video controls preload="metadata" playsinline poster="images/fan-trailer-poster.webp" width="1280" height="720">
+              <source src="videos/fan-trailer.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="reel-card__body">
+            <span class="project-card__tag">Video Editing · Sound Design · Premiere Pro</span>
+            <h4>Shadow of the Hidden Leaf — Fan Trailer</h4>
+            <ul class="reel-card__list">
+              <li><span>01</span>Trailer Editing &amp; Title Cards</li>
+              <li><span>02</span>Sound Design &amp; SFX (whooshes, impact hits)</li>
+              <li><span>03</span>Music Sync — cuts on the beat</li>
+              <li><span>04</span>Audio Mixing — music &amp; effects levels</li>
+              <li><span>05</span>Tension Build-up &amp; Silence Drop</li>
+            </ul>
+            <p class="reel-card__note">Fan-made edit. Footage and characters are taken from the anime <b>Naruto Shippuden</b> and belong to their original owners. Editing, sound design, audio mixing and title cards by me.</p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION ===================== -->
+<section class="section achievements" id="education">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Education</p>
+      <h2 class="section-title">Education &amp; Training</h2>
+      <p class="section-sub">A computer applications degree, a 402-hour professional design
+      program, and certifications that back the craft.</p>
+    </div>
+
+    <div class="achv-block">
+      <p class="label-mono">EDUCATION</p>
+      <div class="edu-grid">
+        <div class="edu-card glass-panel">
+          <span class="edu-card__year">2022 – 2025</span>
+          <h4>Bachelor of Computer Application (BCA)</h4>
+          <p>Rajarshi School of Management &amp; Technology, Varanasi</p>
+        </div>
+        <div class="edu-card glass-panel">
+          <span class="edu-card__year">2020 – 2022</span>
+          <h4>Intermediate &amp; High School</h4>
+          <p>Green Valley English School, Varanasi</p>
+        </div>
+        <div class="edu-card edu-card--wide glass-panel">
+          <span class="edu-card__year">2024 – 2026 · Professional Training</span>
+          <h4>Digital Content Creation Program — Arena Animation, Varanasi</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="achv-block">
+      <p class="label-mono">ARENA COURSE MODULES</p>
+      <div class="stat-row stat-row--alt">
+        <div class="stat-card"><span class="stat-card__term">TERM 1</span><span class="stat-card__num">140<small>h</small></span><span class="stat-card__label">Design &amp; Visualisation + Generative AI</span></div>
+        <div class="stat-card"><span class="stat-card__term">TERM 2</span><span class="stat-card__num">102<small>h</small></span><span class="stat-card__label">Motion Design</span></div>
+        <div class="stat-card"><span class="stat-card__term">TERM 3</span><span class="stat-card__num">122<small>h</small></span><span class="stat-card__label">UI Design &amp; Web Development</span></div>
+        <div class="stat-card"><span class="stat-card__term">TERM 4</span><span class="stat-card__num">38<small>h</small></span><span class="stat-card__label">Portfolio Development</span></div>
+      </div>
+    </div>
+
+    <div class="achv-block">
+      <p class="label-mono">CERTIFICATIONS</p>
+      <div class="cert-grid">
+        <div class="cert-card glass-panel">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2 21 6v6c0 5-4 8-9 10-5-2-9-5-9-10V6l9-4Z" stroke="currentColor" stroke-width="1.4"/><path d="M8.5 12l2.5 2.5L16 9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="cert-card__issuer">Infosys</span>
+          <h4>Skill Up – Employability Enhancement Programme</h4>
+          <p>Centum Foundation &amp; Infosys Foundation · Dec 2024</p>
+          <span class="cert-card__id">ID: VISAR120803VU</span>
+          <a href="#cert-infosys" class="cert-card__btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/></svg><span>View Certificate</span></a>
+        </div>
+        <div class="cert-card glass-panel">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2 21 6v6c0 5-4 8-9 10-5-2-9-5-9-10V6l9-4Z" stroke="currentColor" stroke-width="1.4"/><path d="M8.5 12l2.5 2.5L16 9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="cert-card__issuer">Udemy</span>
+          <h4>Graphic Design Masterclass – Learn GREAT Design</h4>
+          <p>Udemy · Lindsay Marsh · 30.5 hours · Oct 2025</p>
+          <span class="cert-card__id">ID: UC-2a7401af-7fee-4b3a-932f-ba81a41677c5</span>
+          <a href="#cert-udemy" class="cert-card__btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/></svg><span>View Certificate</span></a>
+        </div>
+        <div class="cert-card glass-panel">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2 21 6v6c0 5-4 8-9 10-5-2-9-5-9-10V6l9-4Z" stroke="currentColor" stroke-width="1.4"/><path d="M8.5 12l2.5 2.5L16 9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="cert-card__issuer">Arena Animation</span>
+          <h4>Digital Content Creation</h4>
+          <p>Arena Animation, Varanasi</p>
+          <span class="cert-card__id">2024 – 2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">What I Do</p>
+      <h2 class="section-title">What I Can Do</h2>
+      <p class="section-sub">Skills I can bring to a team or a project from day one.</p>
+    </div>
+
+    <div class="services__grid">
+      <article class="service-card glass-panel">
+        <span class="service-card__index">01</span>
+        <div class="service-card__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 7 3 12l5 5M16 7l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Frontend Development</h3>
+        <ul><li>Landing Pages</li><li>Multi-Page Websites</li><li>Bootstrap Layouts</li><li>Interactive Elements</li></ul>
+      </article>
+      <article class="service-card glass-panel">
+        <span class="service-card__index">02</span>
+        <div class="service-card__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M3 9h18M9 9v12" stroke="currentColor" stroke-width="1.4"/></svg></div>
+        <h3>UI/UX Design</h3>
+        <ul><li>Wireframes</li><li>High-Fidelity UI</li><li>Clickable Prototypes</li><li>Mobile &amp; Web Screens</li></ul>
+      </article>
+      <article class="service-card glass-panel">
+        <span class="service-card__index">03</span>
+        <div class="service-card__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="5" y="2.5" width="14" height="19" rx="2.5" stroke="currentColor" stroke-width="1.4"/><path d="M10 18.5h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></div>
+        <h3>Responsive Web Design</h3>
+        <ul><li>Mobile-First Layouts</li><li>Flexbox &amp; Grid</li><li>Media Queries</li><li>Cross-Browser Checks</li></ul>
+      </article>
+      <article class="service-card glass-panel">
+        <span class="service-card__index">04</span>
+        <div class="service-card__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="2" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="10" r="1.6" stroke="currentColor" stroke-width="1.4"/><path d="M3 16.5 8.5 12l3 2.5 4-4L21 15" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Graphic &amp; Social Media Design</h3>
+        <ul><li>Social Media Posts</li><li>Web Banners</li><li>Posters &amp; Flyers</li><li>Photo Manipulation</li></ul>
+      </article>
+      <article class="service-card glass-panel">
+        <span class="service-card__index">05</span>
+        <div class="service-card__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M9.5 8.5v7l6-3.5-6-3.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></div>
+        <h3>Motion Graphics &amp; Video</h3>
+        <ul><li>Motion Graphics</li><li>Video Editing</li><li>Text Animations</li><li>Audio Cleanup</li></ul>
+      </article>
+      <article class="service-card glass-panel">
+        <span class="service-card__index">06</span>
+        <div class="service-card__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.6L12 15l-1.8-4.4L5.5 9l4.7-1.4L12 3Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M18 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg></div>
+        <h3>AI-Assisted Design</h3>
+        <ul><li>Concept Generation</li><li>AI Images</li><li>Copy Drafts</li><li>Faster Iterations</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title">Let's build something<br>great together.</h2>
+      <p class="section-sub">I'm looking for a full-time role, internship or freelance work as a Digital Content
+      Creator — web, UI/UX, graphics, motion and video. Feel free to reach out.</p>
+      <span class="availability-badge"><span class="availability-dot"></span>Open to work — available immediately</span>
+    </div>
+
+    <div class="contact__grid">
+      <div class="contact__info">
+        <a class="contact-link glass-panel" href="mailto:vishalsingh18111@gmail.com">
+          <span class="contact-link__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5" width="19" height="14" rx="2.5" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 6.5 12 13l8.5-6.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="contact-link__text"><strong>Email</strong>vishalsingh18111@gmail.com</span>
+        </a>
+        <a class="contact-link glass-panel" href="tel:+917460962727">
+          <span class="contact-link__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 3.5h3.5l1.7 4.3-2.2 1.4a11 11 0 0 0 6.8 6.8l1.4-2.2 4.3 1.7V19a1.5 1.5 0 0 1-1.6 1.5C10.6 20 4 13.4 3.5 5.1A1.5 1.5 0 0 1 5 3.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></span>
+          <span class="contact-link__text"><strong>Phone</strong>+91 74609 62727</span>
+        </a>
+        <a class="contact-link glass-panel" href="https://www.linkedin.com/in/vishal-singh-75a062253/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-link__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M7.5 10.5v6M7.5 7.8v.1M12 16.5v-3.7c0-1.2.9-2.1 2-2.1s2 .9 2 2.1v3.7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+          <span class="contact-link__text"><strong>LinkedIn</strong>linkedin.com/in/vishal-singh-75a062253</span>
+        </a>
+        <div class="contact-link glass-panel">
+          <span class="contact-link__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.4"/></svg></span>
+          <span class="contact-link__text"><strong>Location</strong>Varanasi, Uttar Pradesh · Open to relocation</span>
+        </div>
+      </div>
+
+      <div class="contact-cta glass-panel">
+        <h3>Have a role or a project in mind?</h3>
+        <p>Send me an email or a WhatsApp message — I&#39;ll get back to you soon.</p>
+        <div>
+          <p class="label-mono" style="margin-bottom:12px">LOOKING FOR</p>
+          <div class="contact-cta__looking">
+            <span class="tag">Full-time</span>
+            <span class="tag">Internship</span>
+            <span class="tag">Freelance</span>
+          </div>
+        </div>
+        <div class="contact-cta__buttons">
+          <a href="mailto:vishalsingh18111@gmail.com?subject=Opportunity%20for%20Vishal%20Singh" class="btn btn--primary">
+            <span>Email Me</span>
+            <svg class="btn__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://wa.me/917460962727" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="#resume-view" class="btn btn--ghost"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M14 2.5H6.5A2 2 0 0 0 4.5 4.5v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8L14 2.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span>Resume</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#home" class="brand-mark brand-mark--footer" aria-label="Back to top">
+        <span class="brand-mark__ring"></span>
+        <img src="images/logo-red.webp" alt="" width="24" height="24">
+      </a>
+      <p>Design, motion, video and web — made by one creator.</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#graphics">Graphics</a>
+      <a href="#education">Education</a>
+      <a href="#resume-view">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="#resume-view" aria-label="View resume"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M14 2.5H6.5A2 2 0 0 0 4.5 4.5v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8L14 2.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+      <a href="mailto:vishalsingh18111@gmail.com" aria-label="Email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5" width="19" height="14" rx="2.5" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 6.5 12 13l8.5-6.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/vishal-singh-75a062253/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M7.5 10.5v6M7.5 7.8v.1M12 16.5v-3.7c0-1.2.9-2.1 2-2.1s2 .9 2 2.1v3.7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </a>
+      <a href="https://wa.me/917460962727" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 20l1.2-3.6A8.5 8.5 0 1 1 8 19.1L4 20Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8a5 5 0 0 1-2.2-2.2l.8-1-1-2L9 8.5Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© 2026 Vishal Singh. All rights reserved.</p>
+    <p>Designed &amp; built by Vishal Singh</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="gfx-g4" role="dialog" aria-label="Today's Special — food menu banner"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-4.webp" alt="Today's Special — food menu banner" loading="lazy"><figcaption>Today's Special — food menu banner</figcaption></figure></div>
+<div class="lightbox" id="gfx-g1" role="dialog" aria-label="Nature — poster design"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-1.webp" alt="Nature — poster design" loading="lazy"><figcaption>Nature — poster design</figcaption></figure></div>
+<div class="lightbox" id="gfx-g2" role="dialog" aria-label="Burger — food ad post"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-2.webp" alt="Burger — food ad post" loading="lazy"><figcaption>Burger — food ad post</figcaption></figure></div>
+<div class="lightbox" id="gfx-g3" role="dialog" aria-label="Luxury car — sale ad post"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-3.webp" alt="Luxury car — sale ad post" loading="lazy"><figcaption>Luxury car — sale ad post</figcaption></figure></div>
+<div class="lightbox" id="gfx-g5" role="dialog" aria-label="Back to School — banner"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-5.webp" alt="Back to School — banner" loading="lazy"><figcaption>Back to School — banner</figcaption></figure></div>
+<div class="lightbox" id="gfx-g6" role="dialog" aria-label="Ethos — watch product ad"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-6.webp" alt="Ethos — watch product ad" loading="lazy"><figcaption>Ethos — watch product ad</figcaption></figure></div>
+<div class="lightbox" id="gfx-g7" role="dialog" aria-label="Digital marketing agency — web banner"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/graphic-7.webp" alt="Digital marketing agency — web banner" loading="lazy"><figcaption>Digital marketing agency — web banner</figcaption></figure></div>
+
+<div class="lightbox lightbox--resume" id="resume-view" role="dialog" aria-label="Resume of Vishal Singh">
+  <a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a>
+  <a href="#!" class="lightbox__close" aria-label="Close resume">&times;</a>
+  <figure><img src="images/resume.webp" alt="Resume of Vishal Singh — Digital Content Creator" width="1240" height="1754" loading="lazy"><figcaption>Vishal Singh — Resume</figcaption><a href="files/Vishal_Singh_Resume.pdf" class="btn btn--primary lightbox__download" download="Vishal_Singh_Resume.pdf"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5v11M7 10l5 5 5-5M4.5 19.5h15" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Download Resume</span></a></figure>
+</div>
+
+<div class="lightbox lightbox--cert" id="cert-infosys" role="dialog" aria-label="Infosys Skill Up certificate"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/certificates/infosys-skill-up.webp" alt="Skill Up certificate of completion — Vishal Singh" loading="lazy"><figcaption>Skill Up – Employability Enhancement Programme · Centum Foundation &amp; Infosys Foundation</figcaption></figure></div>
+<div class="lightbox lightbox--cert" id="cert-udemy" role="dialog" aria-label="Udemy certificate"><a href="#!" class="lightbox__bg" aria-hidden="true" tabindex="-1"></a><a href="#!" class="lightbox__close" aria-label="Close">&times;</a><figure><img src="images/certificates/udemy-graphic-design.webp" alt="Udemy Graphic Design Masterclass certificate — Vishal Singh" loading="lazy"><figcaption>Graphic Design Masterclass – Udemy</figcaption><a href="https://ude.my/UC-2a7401af-7fee-4b3a-932f-ba81a41677c5" class="btn btn--primary lightbox__download" target="_blank" rel="noopener noreferrer"><span>Verify on Udemy</span></a></figure></div>
+<script src="js/script.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/liquid-cursor.js"></script>
+</body>
+</html>
